@@ -18,10 +18,7 @@ import kotlin.coroutines.CoroutineContext
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity(), CoroutineScope {
-
     private val usersViewModel: UsersViewModel by viewModels()
-
-
     private lateinit var rvAdapter: RvAdapter
     private lateinit var binding: ActivityMainBinding
     private  val TAG = "MainActivity"
